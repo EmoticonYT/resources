@@ -52,7 +52,7 @@ cd sliverphp
 echo "Downloading SliverPHP..."
 curl -LO "https://raw.githubusercontent.com/EmoticonYT/resources/refs/heads/main/sliverphp/sliver.php" 
 
-read -p "Please connect your idevice, and press any key to continue."
+read -n 1 -s -r -p "Please connect your idevice, and press enter to continue."
 
 killall php ideviceactivation &
 
