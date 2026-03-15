@@ -49,9 +49,9 @@ mkdir -p sliverphp
 
 cd sliverphp
 
-curl -LO "https://raw.githubusercontent.com/EmoticonYT/resources/refs/heads/main/sliverphp/sliver.php"
+curl -LO "https://raw.githubusercontent.com/EmoticonYT/resources/refs/heads/main/sliverphp/sliver.php" &
 
-killall php ideviceactivation
+killall php ideviceactivation &
 
 PRODUCT_TYPE=$(ideviceinfo -k ProductType 2>/dev/null)
 PRODUCT_VERSION=$(ideviceinfo -k ProductVersion 2>/dev/null)
