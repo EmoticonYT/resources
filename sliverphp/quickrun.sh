@@ -55,7 +55,8 @@ killall php ideviceactivation
 
 php -S localhost:43523 -t . sliver.php &
 
-wait 5
+pause 2
 
 ideviceactivation activate --service http://localhost:43523
 
+killall php ideviceactivation
