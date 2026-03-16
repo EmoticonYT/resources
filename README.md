@@ -1,7 +1,7 @@
 # SliverPHP Quick Run
 **Created by EmoticonYT**
 
-A streamlined bash script to automate the SliverPHP activation bypass for iPad 2,1 and legacy iOS devices.
+A streamlined bash script to automate the SliverPHP hacktivation bypass.
 
 ### Usage
 Run this one-liner in the macOS Terminal:
